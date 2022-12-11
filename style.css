@@ -16,6 +16,7 @@ body {
 }
 
 .container {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     position: relative;
     width: 400px;
     padding: 30px;
@@ -27,7 +28,7 @@ body {
     border: 2px solid rgb(79, 81, 211);
     gap: 10px;
     padding-bottom: 70px;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #005);
+    /* -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #005); */
 }
 
 .container h2 {
@@ -75,25 +76,19 @@ body {
 .container.weak .strenythMeter::before {
     width: 10%;
     background: #f00;
-    filter: drop-shadow(0 0 5px #f00)
-     drop-shadow(0 0 10px #f00) 
-     drop-shadow(0 0 20px #f00);
+    filter: drop-shadow(0 0 5px #f00) drop-shadow(0 0 10px #f00) drop-shadow(0 0 20px #f00);
 }
 
 .container.medium .strenythMeter::before {
     width: 65%;
     background: #ffa500;
-    filter: drop-shadow(0 0 5px #ffa500) 
-    drop-shadow(0 0 10px #ffa500) 
-    drop-shadow(0 0 20px #ffa500);
+    filter: drop-shadow(0 0 5px #ffa500) drop-shadow(0 0 10px #ffa500) drop-shadow(0 0 20px #ffa500);
 }
 
 .container.strong .strenythMeter::before {
     width: 100%;
     background: #0f0;
-    filter: drop-shadow(0 0 5px #0f0) 
-    drop-shadow(0 0 10px #0f0) 
-    drop-shadow(0 0 20px #0f0);
+    filter: drop-shadow(0 0 5px #0f0) drop-shadow(0 0 10px #0f0) drop-shadow(0 0 20px #0f0);
 }
 
 .strenythMeter::after {
