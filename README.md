@@ -2,4 +2,4 @@
 
 It checks how strong is password
 
-Live Site URL: 
+Live Site URL: https://gabedavaa.github.io/Password-Strength-Checker/
